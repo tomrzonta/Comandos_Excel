@@ -61,3 +61,20 @@ CTRL + Z (desfazer).
 5. Referência aos dados da tabela:
     1. Exemplo de referência à coluna inteira: =MEDIA(TabelaVendas[VALOR])
     2. Exemplo de referência ao valor do registro (na mesma linha): =[@VALOR]/[@VOLUME]
+
+# Aula-segmentação.xlsx
+1. Segmentação de dados
+    1. Tem a mesma utilidade dos filtros, porém com uma apresentação mais amigável.
+    2. É mais útil em tabelas dinâmicas e dashboards (serão trabalhados em aulas futuras).
+    3. Atenção! A segmentação de dados só funciona em tabelas.
+2. Para adicionar a segmentação de dados
+    1. Selecionar a tabela desejada (basta clicar em qualquer célula da tabela).
+    2. Clicar no comando “Segmentação de Dados” disponível na Faixa de Opções “Inserir”.
+    3. Escolher a coluna (ou parte delas ou todas) que se deseja adicionar a segmentação de dados.
+3. Notas gerais
+    1. A segmentação de dados pode ser redimensionada, por meio das “alças” disponíveis no seu contorno.
+    2. Para exibir os botões da segmentação de dados em mais de uma coluna:
+    3. Selecionar a segmentação de dados desejada.
+    4. Digitar o número de colunas desejadas no comando “Opções/Colunas”.
+    5. Qualquer novo valor inserido na tabela é atualizado automaticamente na segmentação de dados.
+    6. Para remover uma segmentação de dados basta seleciona-la e pressionar “Delete”.
