@@ -8,17 +8,18 @@ Arquivo: aula-trancamento.xlsx
     2. Para incluir o $ na referência, pode-se digitar manualmente ou então basta teclar F4
 
 # Aula-imagens-formas.xlsx
+
 Tópicos:
-    1. Todas Colunas de mesmo tamanho: Página Inicial / Formatar / Largura Padrão
-    2. Inserção de formas: Inserir / Formas
-    3. Inserção de imagens: Inserir /Imagens
-    4. As formas aceitam textos que podem ser formatados como um texto normal (fonte, cor e tamanho).
-    5. Guia Formatar: aparece assim que uma forma ou imagem é selecionada.
-    6. Alinhamento de formar e imagens:
-        1. Selecione as formas e/ou imagens a alinhar (pressione a tecla SHIFT e clique nas formas);
-        2. Formatar / Alinhar
-    1. Selecionar objetos: Página inicial / Localizar e Selecionar / Selecionar objetos
-    2.Transformar a figura em “JPG” ou “PNG”: recortar e colar especial
+1. Todas Colunas de mesmo tamanho: Página Inicial / Formatar / Largura Padrão
+2. Inserção de formas: Inserir / Formas
+3. Inserção de imagens: Inserir /Imagens
+4. As formas aceitam textos que podem ser formatados como um texto normal (fonte, cor e tamanho).
+5. Guia Formatar: aparece assim que uma forma ou imagem é selecionada.
+6. Alinhamento de formar e imagens:
+    1. Selecione as formas e/ou imagens a alinhar (pressione a tecla SHIFT e clique nas formas);
+    2. Formatar / Alinhar
+7. Selecionar objetos: Página inicial / Localizar e Selecionar / Selecionar objetos
+8. Transformar a figura em “JPG” ou “PNG”: recortar e colar especial
 
 # Aula-hiperlink.xlsx
 
