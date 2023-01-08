@@ -18,14 +18,15 @@
 =CONT.SES(TBEstoque[GRUPO];E6;TBEstoque[QTDE.];"<"&F6)
 
 # Aula-soma-se.xlsx
+
 1. Aplicabilidade: obter a soma dos valores de uma fonte de dados, baseada em uma condição aplicada a outra fonte de dados equivalente
 2. Disponíveis na Guia “Fórmulas”, item “Matemática e Trigonometria”.
 3. SOMASE(intervalo;critérios;intervalo_soma)
 ## EXEMPLO:
 =SOMASE(tbvendas[LOJA];B7;tbvendas[VOLUME])
 
-
 # Aula-soma-ses.xlsx
+
 1. Aplicabilidade: similar ao SOMASE, porém podendo ter mais de um critério
 2. Disponíveis na Guia “Fórmulas”, item “Matemática e Trigonometria”.
 3. SOMASES(intervalo_soma;intervalo_critério1;critério1;intervalo_critério2;critério2;...)
@@ -33,3 +34,21 @@
 ## EXEMPLO:
 =SOMASES(tbvendas[VALOR];tbvendas[LOJA];B7;tbvendas[CATEGORIA];$C$12;tbvendas[GÊNERO];$C$13)
 
+# Aula-media-se.xlsx
+
+1. Aplicabilidade: similar ao SOMASE, porém calcula a média aritmética
+2. Disponíveis na Guia “Fórmulas”, item “Mais Funções”, item “Estatística”.
+3. MÉDIASE(intervalo;critérios;intervalo_média)
+
+## EXEMPLO: 
+=MÉDIASE(TbVendas[LOJA];B7;TbVendas[VOLUME])
+
+# Aula-media-se.xlsx
+
+1. Aplicabilidade: similar ao SOMASES, porém calcula a média aritmética
+2. Disponíveis na Guia “Fórmulas”, item “Mais Funções”, item “Estatística”.
+3. MÉDIASES(intervalo_média;intervalo_critério1;critério1;intervalo_critério2;critério2;...)
+4. MÉDIASES aceita até 127 critérios simultâneos.
+
+## EXEMPLO:
+=MÉDIASES(TbVendas[VOLUME];TbVendas[LOJA];B7;TbVendas[CATEGORIA];$C$12;TbVendas[GÊNERO];$C$13)
