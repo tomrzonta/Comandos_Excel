@@ -1,4 +1,5 @@
 # Aula-filtros.xlsx
+
 1. Usos do filtro (ver arquivo): Criar RELATÓRIOS GERENCIAIS conforme a necessidade do tomador de decisão
 a partir de uma base extensa de dados, economizando tempo de preparação.
 2. Dica: No Excel, intervalo de dados é diferente de tabela de dados, pois essa última tem mais recursos (como será visto em aula específica nesse capítulo).
@@ -11,12 +12,14 @@ a partir de uma base extensa de dados, economizando tempo de preparação.
     4. Cor por meio de filtros que considerem as cores da fonte ou de preenchimento das células.
 
 # Aula-classificação.xlsx
+
 1. Para acionar a classificação clicar no comando “Classificar” disponível na faixa de opções “Dados”.
 2. Nessa faixa de opções há três comandos de classificação: “do maior para o menor” e “do menor para o maior” que ordenam automaticamente e “classificar” que abre caixa de diálogo.
 3. É possível classificar o intervalo de dados que possui filtro.
 4. É possível efetuar mais de uma classificação simultaneamente (mais de uma coluna de dados) denominada nível de classificação.
 
 # Aula-filtro-avançado.xlsx
+
 1. Principal vantagem de usar o filtro avançado: está relacionada a ação de colar o resultado, pois permite trabalhar com esses dados sem alterar os dados de origem.
 2. Para acionar o filtro avançado: Dados -> Avançado
 3. Antes de iniciar o filtro avançado é necessário criar em qualquer parte da mesma planilha (ou de outra planilha) um intervalo com no mínimo duas linhas, sendo a primeira o cabeçalho com texto idêntico ao do cabeçalho do intervalo de dados (pode ser parte do cabeçalho, mas o texto de cada parte deve ser idêntico).
@@ -40,6 +43,7 @@ empregado ao se digitar “Pe*” o filtro avançado retornará todo empregado c
 8.  Se houver duas vezes a mesma coluna do cabeçalho do intervalo de critérios terá o efeito do operador “E” (INTERSECÇÃO) na filtragem.
 
 # Aula-tabela.xlsx
+
 1. Vantagem da tabela: automatização de fórmulas e inserção de dados
 2. Para transformar um intervalo de dados em uma tabela:
     1. Selecione qualquer célula dentro do intervalo de dados.
@@ -63,6 +67,7 @@ CTRL + Z (desfazer).
     2. Exemplo de referência ao valor do registro (na mesma linha): =[@VALOR]/[@VOLUME]
 
 # Aula-segmentação.xlsx
+
 1. Segmentação de dados
     1. Tem a mesma utilidade dos filtros, porém com uma apresentação mais amigável.
     2. É mais útil em tabelas dinâmicas e dashboards (serão trabalhados em aulas futuras).
